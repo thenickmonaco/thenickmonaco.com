@@ -6,6 +6,7 @@ html {
     height: 100%;
     width: 100%;
     overflow-y: scroll;
+    background-image: url('/htmx/assets/images/skyblue.jpg');
     background-attachment: fixed;
 }
 
@@ -78,9 +79,6 @@ h1 {
     text-align: center;
     font-family: "Roboto Mono", "sans-serif";
     font-size: 80px;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
 }
 
 .outline {
@@ -110,10 +108,6 @@ a {
     padding: 15px;
     margin: -15px;
     color: #33AFF4;
-}
-
-.blue-background {
-    background-color: #33AFF4;
 }
 
 p:hover {

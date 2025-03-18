@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+html {
+    background-color: #33AFF4;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-image: url('/htmx/assets/images/skyblue.jpg');
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 10px;
+    gap: 0px;
+    background-color: transparent;
+}
+
+.hidescrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.small {
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto Mono", "sans-serif";
+    font-size: 30px;
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    height: 100%;
+}
+
+img.dionysus {
+    right: 0;
+    width: 40%;
+    height: 96%;
+}
+
+img.apollo {
+    left: 0;
+    width: 70%;
+    height: 95%;
+}
+
+button {
+    position: absolute;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+button.man {
+    top: 0;
+    height:20%;
+    width: 42%;
+}
+
+button.dionysian {
+    right: 0;
+    height: 100%;
+    width: 29%;
+}
+
+button.apollonian {
+    left: 0;
+    height: 100%;
+    width: 29%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Roboto Mono", "sans-serif";
+    font-size: 80px;
+}
+
+.outline {
+    text-shadow: -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+p {
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto Mono", "sans-serif";
+    color: #33AFF4;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    margin: -15px;
+    color: #33AFF4;
+}
+
+p:hover {
+    background-color: #33AFF4;
+    color: black;
+    a {
+        color: black;
+    }
+}
+
+a:hover {
+    background-color: transparent;
+    color: black;
+}

@@ -1,3 +1,3 @@
 module github.com/thenickmonaco/thenickmonaco.com
 
-go 1.23.6
+go 1.23

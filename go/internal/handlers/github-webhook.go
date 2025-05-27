@@ -4,15 +4,16 @@ import (
     "crypto/hmac"
     "crypto/sha256"
     "encoding/hex"
-    "io/ioutil"
+    "io"
     "log"
     "net/http"
     "os/exec"
+	"os"
 )
 
+var webhookSecret = os.Getenv("WEBHOOK_SECRET")
 const (
-    webhookSecret = "your_secret_here" // Must match the secret you set in GitHub webhook settings
-    repoPath      = "/path/to/your/website/repo"
+    repoPath      = "/var/www/thenickmonaco.com"
 )
 
 func verifySignature(signature string, body []byte) bool {
@@ -35,7 +36,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
         return
     }
 
-    body, err := ioutil.ReadAll(r.Body)
+    body, err := io.ReadAll(r.Body)
     if err != nil {
         http.Error(w, "Could not read body", http.StatusInternalServerError)
         return
@@ -62,7 +63,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    http.HandleFunc("/payload", handler)
+    http.HandleFunc("/github-webhook", handler)
     log.Println("Starting server on :5000")
     err := http.ListenAndServe(":5000", nil)
     if err != nil {

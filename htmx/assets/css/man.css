@@ -107,11 +107,11 @@ a {
     z-index: 1;
     padding: 15px;
     margin: -15px;
-    color: #33AFF4;
+    color: #DD1F01;
 }
 
 p:hover {
-    background-color: #33AFF4;
+    background-color: #DD1F01;
     color: black;
     a {
         color: black;

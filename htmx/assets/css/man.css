@@ -122,7 +122,7 @@ p:hover {
 
     border-width: 5px;
     border-color: black;
-    border-style: groove;
+    border-style: solid;
 }
 
 a:hover {

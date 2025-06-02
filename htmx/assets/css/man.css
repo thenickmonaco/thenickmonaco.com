@@ -118,18 +118,14 @@ p:hover {
 
     a {
         color: #eeeeee;
-        border-radius: 5px;
-        border-color: black;
-        border-style:groove;
     }
 
-    border-radius: 5px;
+    border-radius: 13px;
     border-color: black;
+    border-style: groove;
 }
 
 a:hover {
     background-color: transparent;
     color: #eeeeee;
-    border-radius: 5px;
-    border-color: black;
 }

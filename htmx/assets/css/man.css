@@ -118,9 +118,9 @@ p:hover {
 
     a {
         color: #eeeeee;
-        border-width: 3px;
-        border-color: black;
-        border-style: solid;
+        /*border-width: 3px;*/
+        /*border-color: black;*/
+        /*border-style: solid;*/
     }
 }
 
@@ -128,7 +128,7 @@ a:hover {
     background-color: transparent;
     color: #eeeeee;
 
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
+    /*border-width: 3px;*/
+    /*border-color: black;*/
+    /*border-style: solid;*/
 }

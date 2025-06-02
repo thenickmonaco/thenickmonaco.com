@@ -113,9 +113,9 @@ a {
 
 p:hover {
     background-color: #DD1F01;
-    color: #EEEEEE;
+    color: transparent;
     a {
-        color: #EEEEEE;
+        color: transparent;
     }
 }
 

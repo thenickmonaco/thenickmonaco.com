@@ -52,7 +52,7 @@ img.apollo {
 
 button {
     position: absolute;
-    background: transparent;
+    background: #EEEEEE;
     border: transparent;
     cursor: pointer;
 }
@@ -90,7 +90,7 @@ h1 {
 }
 
 p {
-    background-color: black;
+    background-color: #EEEEEE;
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -120,6 +120,6 @@ p:hover {
 }
 
 a:hover {
-    background-color: transparent;
+    background-color: #EEEEEE;
     color: #EEEEEE;
 }

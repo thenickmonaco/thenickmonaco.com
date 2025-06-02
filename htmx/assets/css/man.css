@@ -112,13 +112,13 @@ a {
 
 p:hover {
     background-color: #DD1F01;
-    color: black;
+    color: #EEEEEE;
     a {
-        color: black;
+        color: #EEEEEE;
     }
 }
 
 a:hover {
     background-color: transparent;
-    color: black;
+    color: #EEEEEE;
 }

@@ -118,6 +118,9 @@ p:hover {
 
     a {
         color: #eeeeee;
+        border-width: 3px;
+        border-color: black;
+        border-style: solid;
     }
 }
 

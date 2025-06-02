@@ -117,9 +117,13 @@ p:hover {
     a {
         color: #EEEEEE;
     }
+    border-radius: 2px;
+    border-color: black;
 }
 
 a:hover {
     background-color: transparent;
     color: #EEEEEE;
+    border-radius: 2px;
+    border-color: black;
 }

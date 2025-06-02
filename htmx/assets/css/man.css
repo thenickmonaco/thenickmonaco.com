@@ -115,11 +115,11 @@ p:hover {
     background-color: #DD1F01;
     color: #EEEEEE;
     a {
-        color: transparent;
+        color: #EEEEEE;
     }
 }
 
 a:hover {
-    background-color: transparent;
+    background-color: #EEEEEE;
     color: #EEEEEE;
 }

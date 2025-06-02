@@ -120,7 +120,7 @@ p:hover {
         color: #eeeeee;
         border-radius: 5px;
         border-color: black;
-        border-style:solid;
+        border-style:ridge;
     }
 
     border-radius: 5px;

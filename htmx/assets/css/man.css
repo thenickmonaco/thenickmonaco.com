@@ -108,18 +108,18 @@ a {
     z-index: 1;
     padding: 15px;
     margin: -15px;
-    color: #EEEEEE;
+    color: #DD1F01;
 }
 
 p:hover {
     background-color: #DD1F01;
     color: transparent;
     a {
-        color: black;
+        color: #EEEEEE;
     }
 }
 
 a:hover {
     background-color: transparent;
-    color: black;
+    color: #EEEEEE;
 }

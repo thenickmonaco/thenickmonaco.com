@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 html {
-    background-color: #dd1f01;
+    background-color: #dd0000;
     margin: 0 auto;
     height: 100%;
     width: 100%;
@@ -84,10 +84,10 @@ h1 {
 
 .outline {
     text-shadow:
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+        -1px -1px 0 #eee,
+        1px -1px 0 #eee,
+        -1px 1px 0 #eee,
+        1px 1px 0 #eee;
 }
 
 p {
@@ -109,11 +109,11 @@ a {
     z-index: 1;
     padding: 15px;
     margin: -15px;
-    color: #dd1f01;
+    color: #dd0000;
 }
 
 p:hover {
-    background-color: #dd1f01;
+    background-color: #dd0000;
     color: transparent;
 
     a {

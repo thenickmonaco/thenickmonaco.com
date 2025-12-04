@@ -1,3 +1,3 @@
-module github.com/monacochrist/thenickmonaco.com
+module github.com/monacochrist/monacochrist.com
 
 go 1.23

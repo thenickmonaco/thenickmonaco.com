@@ -13,7 +13,7 @@ import (
 
 var webhookSecret = os.Getenv("WEBHOOK_SECRET")
 const (
-    repoPath      = "/var/www/thenickmonaco.com"
+    repoPath      = "/var/www/monacochrist.com"
 )
 
 func verifySignature(signature string, body []byte) bool {
